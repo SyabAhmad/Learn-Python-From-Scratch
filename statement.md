@@ -13,7 +13,6 @@ userName = "de Developer"
 age = 23
 print(age)
 print(userName)
-
 ```
 
 # if else statement in Python
