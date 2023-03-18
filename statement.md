@@ -1,6 +1,6 @@
 # Welcome!
 
-This Python template lets you get started quickly with a simple one-page playground.
+This is Python Tutorials for beginner to start with
 
 ```python runnable
 print('Hello World!')
