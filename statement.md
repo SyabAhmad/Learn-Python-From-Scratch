@@ -51,6 +51,41 @@ print(value1/value2)
 print(value1*value2)
 print(value1%value2)
 ```
+# Data Types
+
+```python runnable
+stringDataTypes = "de Developer"
+intDataType = 12
+floatDataType = 23.2
+setDataType = {1,2,3,4,5,6}
+listDataType = [1,2,3,4,5,6,6,7,8]
+tupleDataType = (1,2,3,4,5,6,7,8,9)
+boolDataType = True
+boolDataType = False
+bytesDataType = b"developer"
+complexDataTypes = 23j
+rangeDataType = range(23)
+
+
+```
+# Type Casting
+
+```python runnable
+stringDataTypes = "12"
+intDataType = 12
+# conversion of string to int
+stringDataTypeToIntDataType = int(stringDataType)
+print(type(stringDataTypeToIntDataType))
+# conversion of int to string
+intDataTypeToStringDataType = str(intDataType)
+print(type(intDataTypeToStringDataType))
+#conversion of int to float
+intDataTypeToFloatDataType = float(intDataType)
+print(type(intDataTypeToFloatDataType))
+
+
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Python template](https://tech.io/select-repo/429)
