@@ -83,6 +83,14 @@ print(type(intDataTypeToStringDataType))
 intDataTypeToFloatDataType = float(intDataType)
 print(type(intDataTypeToFloatDataType))
 
+```
+# Lists
+
+```python runnable
+data = ["apple", "mango", "oranges"]
+print(data)
+
+
 
 ```
 
