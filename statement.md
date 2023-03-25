@@ -246,6 +246,13 @@ print(dict2)
 
 
 ```
+# Simple Array in Python
+
+```python runnable
+print("Arrays in Python")
+array = [1,2,3,4,5,6,7,8,9]
+print(array)
+```
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Python template]https://github.com/SyabAhmad/Python3DaysChallenge
