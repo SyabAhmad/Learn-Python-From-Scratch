@@ -132,9 +132,127 @@ print(4 in myList)
 print(6 in myList)
 print(2 in myList)
 print("Hello" in abc)
+
+
+
+
+```
+# Tuple in Python
+
+```python runnable
+print("Tuple in Python")
+myTuple = ("grapes", "banana", "apple", "mango") # simple tuple
+print(myTuple)  # to display simple tuple
+
+# to display tuple to some range
+print(myTuple[1:4])
+print(myTuple)
+
+print(myTuple.count("apple"))
+print(myTuple.index("apple"))
+
+# searching in tuple
+print("banana" in myTuple)
+
+# we can also concatenate tuple
+newTuple = ("oranges", "pineapple")
+concatenation = myTuple+newTuple
+print(concatenation)
+
+# we can also assign dferent variables to diferent values in tuple
+#like this one
+a, b, c, e = myTuple
+print(a)
+print(b)
+print(c)
+print(e)
+
+
+# and as we can also return multiple values from function we can store them in tuples
+# see below
+
+def tupleValues():
+    return (1,2,3,4,5,6,7,8,9)
+
+myNewTuple = tupleValues()
+print(myNewTuple)
+print(type(myNewTuple))
+
+```
+# Set in Python
+
+```python runnable
+print("Sets in Python")
+
+newSet = {"apple", "mango", "oranges"}
+print(type(newSet))
+
+#to add Value to set
+newSet.add("grapes")
+print(newSet)
+
+# to remove value from set
+newSet.remove("apple")
+print(newSet)
+
+# to access using loop
+for item in newSet:
+    print(item)
+
+# to join two sets
+newSet1 = {"Banana", "PineApple"}
+
+afterjoin = newSet.union(newSet1)
+print(afterjoin)
+
+# if you want to print specific item in set
+print("Apple" in afterjoin)
+# False due to case
 ```
 
-Happy Coding
+# Dectionary in Python
+
+```python runnable
+print("Dictionary in Python")
+dict = {"apple": 2, "banana": 3, "grapes": 4, "mango": 5}
+# type of dict
+print(type(dict))
+# to print dict keys and values
+print(dict)
+# return boolean if it exist or not
+print("apple" in dict)
+# printing specific item
+print(dict["apple"])
+# length of dict
+print(len(dict))
+# update
+dict.update({"apple": 5})
+print(dict)
+#add item
+dict["color"] = "red";
+print(dict)
+# remove item
+dict.pop("apple")
+print(dict)
+# REMOVE LAST ITEM
+dict.popitem()
+print(dict)
+# clear method will clear the dictionary
+#----dict.clear()
+#----print(dict)
+# copy dictionary
+dict2 = dict.copy()
+print(dict2)
+
+
+```
+# Simple Array in Python
+
+```python runnable
+print("Arrays in Python")
+array = [1,2,3,4,5,6,7,8,9]
+print(array)
+```
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Python template]https://github.com/SyabAhmad/Python3DaysChallenge
