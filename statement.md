@@ -295,6 +295,44 @@ for items in fruits:
     
 
 ```
+# Functions in Python
+
+```python runnable
+print("Functions in Python")
+print("Functions in Python")
+
+# functions which return something
+def doSum(value1, value2):
+    return value1+value2
+
+# function which does not return something
+def doSub(value1, value2):
+    print(value1+value2)
+
+print(doSum(4,5))
+
+print(doSub(23,43))
+
+```
+
+# Lambda Functions in Python
+
+```python runnable
+print("Lambda Functions in Python")
+print("lambda Function in python")
+
+# addition using lambda
+doSum = lambda a, b: a+b
+print(doSum(2,3))
+doSub = lambda a, b: a-b
+print(doSub(2,3))
+doMultiPly = lambda a, b: a*b
+print(doMultiPly(2,3))
+doDivision = lambda a, b: a/b
+print(doDivision(2,3))
+
+```
+
 
 # Advanced usage
 
