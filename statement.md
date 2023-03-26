@@ -436,7 +436,8 @@ std.diplayDataOfUser()
 
 ```
 # Exception Handling in Python
-```pthon runnable
+
+```python runnable
 print("Exception handling in Python")
 
 try:
