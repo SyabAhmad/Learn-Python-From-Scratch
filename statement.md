@@ -14,6 +14,25 @@ age = 23
 print(age)
 print(userName)
 ```
+# Operators in Python
+
+```python runnable
+print("operators in python")
+print("+, -, *, /")
+print(2+3)
+print(4-1)
+print(12*2)
+print(50/5)
+
+print(23 or 32)
+print(23 and 32)
+print(23 != 23)
+
+print(23<<32)
+print(33<32)
+print(23>>32)
+print(23>23)
+```
 
 # if else statement in Python
 
@@ -253,6 +272,30 @@ print("Arrays in Python")
 array = [1,2,3,4,5,6,7,8,9]
 print(array)
 ```
+
+# While Loop in Python
+
+```python runnable
+print("While Loop in Python")
+print("While loop in Python")
+i = 0
+while i<4:
+    print(i)
+    i+=1
+
+```
+# forin Loop in Python
+
+```python runnable
+print("forin Loop in Python")
+print("For Loop in Python")
+fruits = {"apple", "mango", "oranges", "banana", "grapes"}
+for items in fruits:
+    print(items, " are some fruits for you")
+    
+
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Python template]https://github.com/SyabAhmad/Python3DaysChallenge
