@@ -332,6 +332,67 @@ doDivision = lambda a, b: a/b
 print(doDivision(2,3))
 
 ```
+# Simple Authentication using Functions in Python
+
+```python runnable
+print("Authentication in python")
+
+def welcome():
+    print("Welcome Dude")
+
+def error(index):
+    if index < 3:
+        authentication()
+    else:
+        print("Out of Moves")
+
+def authentication():
+    indexvalue = 0
+    pincode = int(input("Pin COde: "))
+
+    if pincode == 1234:
+        welcome()
+        # print("incorrect Pin Code")
+    else:
+        indexvalue = indexvalue + 1
+        error(indexvalue)
+
+name = input("Name: ")
+authentication()
+```
+
+# classes and objects in Python
+
+```python runnable
+print("Objects and Classes in Python")
+class student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+# now we create new instent of student class
+std1 = student("de Developer", 23)
+
+print(std1.age)
+print(std1.name)
+
+# Another Example
+
+print("classes and objects in python")
+class student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Name: " + self.name)
+        print("Age: " + str(self.age))
+
+std1 = student("de Developer", 23)
+print(std1.display())
+
+```
 
 
 # Advanced usage
