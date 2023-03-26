@@ -14,6 +14,25 @@ age = 23
 print(age)
 print(userName)
 ```
+# Operators in Python
+
+```python runnable
+print("operators in python")
+print("+, -, *, /")
+print(2+3)
+print(4-1)
+print(12*2)
+print(50/5)
+
+print(23 or 32)
+print(23 and 32)
+print(23 != 23)
+
+print(23<<32)
+print(33<32)
+print(23>>32)
+print(23>23)
+```
 
 # if else statement in Python
 
@@ -253,6 +272,181 @@ print("Arrays in Python")
 array = [1,2,3,4,5,6,7,8,9]
 print(array)
 ```
+
+# While Loop in Python
+
+```python runnable
+print("While Loop in Python")
+print("While loop in Python")
+i = 0
+while i<4:
+    print(i)
+    i+=1
+
+```
+# forin Loop in Python
+
+```python runnable
+print("forin Loop in Python")
+print("For Loop in Python")
+fruits = {"apple", "mango", "oranges", "banana", "grapes"}
+for items in fruits:
+    print(items, " are some fruits for you")
+    
+
+```
+# Functions in Python
+
+```python runnable
+print("Functions in Python")
+print("Functions in Python")
+
+# functions which return something
+def doSum(value1, value2):
+    return value1+value2
+
+# function which does not return something
+def doSub(value1, value2):
+    print(value1+value2)
+
+print(doSum(4,5))
+
+print(doSub(23,43))
+
+```
+
+# Lambda Functions in Python
+
+```python runnable
+print("Lambda Functions in Python")
+print("lambda Function in python")
+
+# addition using lambda
+doSum = lambda a, b: a+b
+print(doSum(2,3))
+doSub = lambda a, b: a-b
+print(doSub(2,3))
+doMultiPly = lambda a, b: a*b
+print(doMultiPly(2,3))
+doDivision = lambda a, b: a/b
+print(doDivision(2,3))
+
+```
+# Simple Authentication using Functions in Python
+
+```python runnable
+print("Authentication in python")
+
+def welcome():
+    print("Welcome Dude")
+
+def error(index):
+    if index < 3:
+        authentication()
+    else:
+        print("Out of Moves")
+
+def authentication():
+    indexvalue = 0
+    pincode = int(input("Pin COde: "))
+
+    if pincode == 1234:
+        welcome()
+        # print("incorrect Pin Code")
+    else:
+        indexvalue = indexvalue + 1
+        error(indexvalue)
+
+name = input("Name: ")
+authentication()
+```
+
+# classes and objects in Python
+
+```python runnable
+print("Objects and Classes in Python")
+class student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+
+# now we create new instent of student class
+std1 = student("de Developer", 23)
+
+print(std1.age)
+print(std1.name)
+
+# Another Example
+
+print("classes and objects in python")
+class student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def display(self):
+        print("Name: " + self.name)
+        print("Age: " + str(self.age))
+
+std1 = student("de Developer", 23)
+print(std1.display())
+
+```
+# inheritance in Python
+
+```python runnable
+print("Inheritance in Python")
+
+print("inheritance using python")
+class Person:
+    def __init__(self, Name, Age):
+        self.name = Name
+        self.age = Age
+    def diplayDataOfUser(self):
+        print(self.name)
+        print(self.age)
+
+class Student(Person):
+    pass
+
+std = Student("De Developer", 22)
+
+std.diplayDataOfUser()
+
+print("inheritance using python")
+class Person:
+    def __init__(self, Name, Age):
+        self.name = Name
+        self.age = Age
+    def diplayDataOfUser(self):
+        print(self.name)
+        print(self.age)
+
+class Student(Person):
+    def __init__(self, name, age):
+        Person.__init__(self, name, age)
+        # print(self.name)
+        # print(self.age)
+
+std = Student("De Developer", 22)
+
+std.diplayDataOfUser()
+
+
+```
+# Exception Handling in Python
+
+```python runnable
+print("Exception handling in Python")
+
+try:
+    print("de Develiper" + 12)
+except:
+    print(" some thing went wrong")
+
+```
+
 # Advanced usage
 
 If you want a more complex example (external libraries, viewers...), use the [Advanced Python template]https://github.com/SyabAhmad/Python3DaysChallenge
