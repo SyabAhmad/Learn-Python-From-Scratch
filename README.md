@@ -93,7 +93,7 @@ rangeDataType = range(23)
 stringDataTypes = "12"
 intDataType = 12
 # conversion of string to int
-stringDataTypeToIntDataType = int(stringDataType)
+stringDataTypeToIntDataType = int(stringDataTypes)
 print(type(stringDataTypeToIntDataType))
 # conversion of int to string
 intDataTypeToStringDataType = str(intDataType)
